@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+tests/
+*.db
+.env
+ml/artifacts/*.joblib
+ml/artifacts/*.json

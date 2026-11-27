@@ -1,0 +1,4 @@
+# Optional: semantic retrieval for the RAG chatbot (EMBEDDING_BACKEND=sentence-transformers).
+# Heavy install (PyTorch). The default TF-IDF backend needs none of this.
+sentence-transformers>=3.0,<6.0
+faiss-cpu>=1.8,<2.0
